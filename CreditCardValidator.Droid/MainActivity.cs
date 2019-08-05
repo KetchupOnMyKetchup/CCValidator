@@ -7,6 +7,10 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using CreditCardValidation.Common;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Distribute;
 
 namespace CreditCardValidator.Droid
 {
@@ -21,6 +25,9 @@ namespace CreditCardValidator.Droid
 
         protected override void OnCreate(Bundle bundle)
         {
+            AppCenter.Start("ad1e50ae-c9d9-4e83-bf45-a010f64a762f",
+                   typeof(Analytics), typeof(Crashes), typeof(Distribute));
+
             base.OnCreate(bundle);
 
             SetContentView(Resource.Layout.Main);

@@ -26,6 +26,25 @@ namespace CreditCardValidator.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_dialog_actioned_on_disabled_toast = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_dialog_actioned_on_disabled_toast;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_download_progress_number_format = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_download_progress_number_format;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_downloading_mandatory_update = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_downloading_mandatory_update;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_install;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install_ready_message = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_install_ready_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install_ready_title = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_install_ready_title;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_notification_category = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_notification_category;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_unknown_sources_dialog_message = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_unknown_sources_dialog_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_unknown_sources_dialog_settings = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_unknown_sources_dialog_settings;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_download = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_update_dialog_download;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_message_mandatory = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_update_dialog_message_mandatory;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_message_optional = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_update_dialog_message_optional;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_postpone = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_update_dialog_postpone;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_title = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_update_dialog_title;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_view_release_notes = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_update_dialog_view_release_notes;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_ignore = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_update_failed_dialog_ignore;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_message = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_update_failed_dialog_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_reinstall = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_update_failed_dialog_reinstall;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_title = global::CreditCardValidator.Droid.Resource.String.appcenter_distribute_update_failed_dialog_title;
 		}
 		
 		public partial class Attribute
@@ -88,26 +107,83 @@ namespace CreditCardValidator.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030001
-			public const int activity_main = 2130903041;
+			// aapt resource value: 0x7f030014
+			public const int activity_main = 2130903060;
 			
-			// aapt resource value: 0x7f030002
-			public const int activity_success = 2130903042;
+			// aapt resource value: 0x7f030015
+			public const int activity_success = 2130903061;
+			
+			// aapt resource value: 0x7f030013
+			public const int app_name = 2130903059;
 			
 			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			public const int appcenter_distribute_dialog_actioned_on_disabled_toast = 2130903040;
 			
-			// aapt resource value: 0x7f030006
-			public const int credit_card_number_hint = 2130903046;
+			// aapt resource value: 0x7f030001
+			public const int appcenter_distribute_download_progress_number_format = 2130903041;
 			
-			// aapt resource value: 0x7f030004
-			public const int credit_card_validation_success_message = 2130903044;
+			// aapt resource value: 0x7f030002
+			public const int appcenter_distribute_downloading_mandatory_update = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int credit_card_validation_success_name = 2130903043;
+			public const int appcenter_distribute_install = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int appcenter_distribute_install_ready_message = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int validate_credit_card_label = 2130903045;
+			public const int appcenter_distribute_install_ready_title = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int appcenter_distribute_notification_category = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int appcenter_distribute_unknown_sources_dialog_message = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int appcenter_distribute_unknown_sources_dialog_settings = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int appcenter_distribute_update_dialog_download = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int appcenter_distribute_update_dialog_message_mandatory = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int appcenter_distribute_update_dialog_message_optional = 2130903051;
+			
+			// aapt resource value: 0x7f03000c
+			public const int appcenter_distribute_update_dialog_postpone = 2130903052;
+			
+			// aapt resource value: 0x7f03000d
+			public const int appcenter_distribute_update_dialog_title = 2130903053;
+			
+			// aapt resource value: 0x7f03000e
+			public const int appcenter_distribute_update_dialog_view_release_notes = 2130903054;
+			
+			// aapt resource value: 0x7f03000f
+			public const int appcenter_distribute_update_failed_dialog_ignore = 2130903055;
+			
+			// aapt resource value: 0x7f030010
+			public const int appcenter_distribute_update_failed_dialog_message = 2130903056;
+			
+			// aapt resource value: 0x7f030011
+			public const int appcenter_distribute_update_failed_dialog_reinstall = 2130903057;
+			
+			// aapt resource value: 0x7f030012
+			public const int appcenter_distribute_update_failed_dialog_title = 2130903058;
+			
+			// aapt resource value: 0x7f030019
+			public const int credit_card_number_hint = 2130903065;
+			
+			// aapt resource value: 0x7f030017
+			public const int credit_card_validation_success_message = 2130903063;
+			
+			// aapt resource value: 0x7f030016
+			public const int credit_card_validation_success_name = 2130903062;
+			
+			// aapt resource value: 0x7f030018
+			public const int validate_credit_card_label = 2130903064;
 			
 			static String()
 			{
