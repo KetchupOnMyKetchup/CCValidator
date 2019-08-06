@@ -1,6 +1,7 @@
 appcenter login --token "0469ed8ec3cfad43e95f1981f07ece88d543bc48"
 
-/Library/Frameworks/Mono.framework/Versions/5.12.0/lib/mono/msbuild/15.0/bin/MSBuild.exe $APPCENTER_SOURCE_DIRECTORY/CreditCardValidator.Droid.UITests/CreditCardValidator.Droid.UITests.csproj /property:Configuration=Release
+echo "Building NUnit test projects:"
+find $APPCENTER_SOURCE_DIRECTORY -regex '.*Test.*\.csproj' -exec msbuild {} \;
 
 echo "Source Directory"
 ls $APPCENTER_SOURCE_DIRECTORY/
