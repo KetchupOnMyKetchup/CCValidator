@@ -4,6 +4,9 @@ echo "Building NUnit test projects:"
 
 UITestProject=$(find "$APPCENTER_SOURCE_DIRECTORY/CreditCardValidator.Droid.UITests" -name CreditCardValidator.Droid.UITests.csproj)
 
+echo UITestProject: $UITestProject
+
+
 msbuild $UITestProject /t:build /p:Configuration=Release
 
 echo "Source Directory"
