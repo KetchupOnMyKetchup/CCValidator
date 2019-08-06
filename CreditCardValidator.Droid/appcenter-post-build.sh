@@ -2,7 +2,7 @@ appcenter login --token "0469ed8ec3cfad43e95f1981f07ece88d543bc48"
 
 echo "Building NUnit test projects:"
 
-
+UITestProject=$(find "$APPCENTER_SOURCE_DIRECTORY/CreditCardValidator.Droid.UITests" -name CreditCardValidator.Droid.UITests.csproj)
 
 msbuild $UITestProject /t:build /p:Configuration=Release
 
