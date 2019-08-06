@@ -1,7 +1,8 @@
 appcenter login --token "0469ed8ec3cfad43e95f1981f07ece88d543bc48"
 
 echo "Building NUnit test projects:"
-find $APPCENTER_SOURCE_DIRECTORY -regex '.*Test.*\.csproj' -exec msbuild {} \;
+
+find $APPCENTER_SOURCE_DIRECTORY -regex '.*Test.*\.csproj' -exec msbuild -p Configuration=Release {} \;
 
 echo "Source Directory"
 ls $APPCENTER_SOURCE_DIRECTORY/
