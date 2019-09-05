@@ -1,4 +1,4 @@
-appcenter login --token "0469ed8ec3cfad43e95f1981f07ece88d543bc48"
+appcenter login --token "" // ENTER APP CENTER TOKEN IN QUOTES HERE
 
 echo "Building NUnit test projects:"
 
